@@ -1,13 +1,16 @@
 {
   "manifest_version": 2,
-  "name": "Bumblee Camelot",
-  "description": "Make his name less ridiculous",
-  "version": "0.1",
-  "content_scripts": 
+  "name": "Benedict Cumberwhat?",
+  "description": "Replace Benedict Cumberbatch's name with something more reasonable. With many apologies to benedictcumberbatchgenerator.tumblr.com",
+  "icons": {
+      "128": "benny.png"
+    },
+  "version": "0.0.1",
+  "content_scripts":
   [
     {
       "matches": ["*://*/*"],
-      "js": ["background.js"],
+      "js": ["script.js"],
       "run_at": "document_end"
     }
   ]
