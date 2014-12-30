@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Bumblee Camelot",
+  "description": "Make his name less ridiculous",
+  "version": "0.1",
+  "content_scripts": 
+  [
+    {
+      "matches": ["*://*/*"],
+      "js": ["background.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
